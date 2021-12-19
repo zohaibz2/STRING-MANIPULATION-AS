@@ -97,20 +97,3 @@ Next i
         Console.WriteLine("The Digits in the string are: " & Digitcounter)
         Console.WriteLine("The other Characters are: " & Othercounter)
         Console.ReadKey()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
