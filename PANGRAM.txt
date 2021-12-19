@@ -1,6 +1,9 @@
-'Find if entered string is a Pangram
+Module Module1
 
-Dim Str1, Alphabets As String
+    Sub Main()
+        'Find if entered string is a Pangram
+
+        Dim Str1, Alphabets As String
         Dim isPangram As Boolean
         Dim Char1 As Char
         Dim count As Integer
@@ -32,4 +35,6 @@ Dim Str1, Alphabets As String
         End If
 
         Console.ReadKey()
+    End Sub
 
+End Module
