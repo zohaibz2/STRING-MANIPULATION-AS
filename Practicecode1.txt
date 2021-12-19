@@ -1,28 +1,3 @@
-//Find if the input string has all the alphabets (case neutral).
-
-INPUT : The quick brown fox jumps over a lazy dog.
-OUTPUT : Entered string is a Pangram
-
-//INPUT
-INPUT : My name is Zohaib.
-OUTPUT : Entered string is not a Pangram.
-
-//DECLARATION
-DECLARE Str1, Alphabets = String
-DECLARE isPangram = Boolean
-DECLARE Char1 = Character
-DECLARE Count = Integer
-
-//INITIALIZATION
-Str1 ← ""
-Alphabets ← "abcdefghijklmnopqrstuvwxyz"
-isPangram ← True
-Char1 ← ''
-Count ← 0
-
-
-
---------------------------------
 'Find if entered string is a Pangram
 
 Dim Str1, Alphabets As String
