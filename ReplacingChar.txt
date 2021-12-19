@@ -1,38 +1,3 @@
-//Replace selected character with another in entered string.
-
-//VISUALIZATION
-INPUT: ZOHAIB NAREJO
-
-//DECLARATION
-DECLARE Str1, Str2, Char1, Char2, nextChar = String
-DECLARE Counter = Integer
-
-//INITIALIZATION
-Str1 = ""
-Str2 = ""
-Char1 = ""
-Char2 = ""
-nextChar = ""
-Counter = 0
-
-//INPUT
- INPUT: "Enter String to process: ", Str1
- INPUT: "Enter Character to remove: ", Char1
- INPUT: "Enter Character to replace with: ", Char2
-
-//PROCESS
- For Counter i to LEN(Str1)
-   nextChar =Mid(Str1, Counter, 1)
-   If nextXhar= Char1 Then
-      nextChar = Char2
-   End If
-   Str2 = Str2 & nextChar
- Next
-
-//OUTPUT
- "" Str2 
-
------------------------
 Module Module1
 
     Sub Main()
