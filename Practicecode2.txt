@@ -32,8 +32,11 @@ Counter = 0
 //OUTPUT
  "" Str2 
 
---------------------------------
-Dim Str1, Str2, Char1, Char2, nextChar As String
+-----------------------
+Module Module1
+
+    Sub Main()
+        Dim Str1, Str2, Char1, Char2, nextChar As String
         Dim Counter As Integer
 
         Str1 = ""
@@ -62,3 +65,6 @@ Dim Str1, Str2, Char1, Char2, nextChar As String
 
         Console.WriteLine("Final String = " & Str2)
         Console.ReadKey()
+    End Sub
+
+End Module
