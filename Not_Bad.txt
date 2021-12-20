@@ -4,18 +4,18 @@ Module Module1
         Dim str1 As String
         Dim str2 As String
         Dim str3 As String
-        Dim finalstring As String
-        Dim leftstring As String
+        Dim Firststring As String
+        Dim Endstring As String
         Dim rightstring As String
         Dim x As Integer
         Dim y As Integer
-        leftstring = ""
+        Endstring = ""
         rightstring = ""
         x = 0
         str1 = ""
         str2 = ""
-        finalstring = ""
-      
+        Firststring = ""
+
 
 
         Console.WriteLine("Enter the string : ")
@@ -27,7 +27,7 @@ Module Module1
 
 
         If x > 0 Then
-            leftstring = Left(str1, x - 1)
+            Endstring = Left(str1, x - 1)
 
             If y > 0 Then
                 rightstring = Mid(str1, y + 3, Len(str1))
@@ -35,8 +35,8 @@ Module Module1
 
             End If
         End If
-        finalstring = leftstring + "good" + rightstring
-        Console.WriteLine(finalstring)
+        Firststring = Endstring + "good" + rightstring
+        Console.WriteLine(Firststring)
         Console.ReadKey()
     End Sub
 
