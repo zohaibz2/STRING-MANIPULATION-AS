@@ -16,15 +16,12 @@ Module Module1
         str2 = ""
         Firststring = ""
 
-
-
         Console.WriteLine("Enter the string : ")
         str1 = Console.ReadLine()
         str2 = "not"
         str3 = "bad"
         x = InStr(str1, str2)
         y = InStr(str1, str3)
-
 
         If x > 0 Then
             Endstring = Left(str1, x - 1)
